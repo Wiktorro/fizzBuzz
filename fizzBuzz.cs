@@ -8,7 +8,8 @@ class HelloWorld {
     Enumerable.Range(1, 16).ToList().ForEach(x =>
        {
          const int rem3 = x % 3;
-    Console.WriteLine($"{(x % 3 == 0 ? "Fizz" : "")}{(x % 5 == 0 ? "Buzz" : "")}{(x % 3 != 0 && x % 5 != 0 ? x.ToString() : "")}");
+         const int rem5 = x % 5;
+    Console.WriteLine($"{(rem3 == 0 ? "Fizz" : "")}{(rem5 == 0 ? "Buzz" : "")}{(rem3 != 0 && rem5 != 0 ? x.ToString() : "")}");
     } );
   }
 }
