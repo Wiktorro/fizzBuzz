@@ -43,3 +43,26 @@ List anything you built and how you built it, tests you added and tests you ran.
 
 - [ ] Upload Win Symbols
 - [ ] Upload Mac Symbols
+
+
+<details>
+<summary>FOLDABLE Review and Accept</summary>
+
+## Secure Code Review Checklist
+
+- 123456
+
+> Reference: [Autodesk Secure Code Review Handbook](https://wiki.autodesk.com/pages/viewpage.action?spaceKey=SEC&title=Autodesk+Secure+Code+Review+Handbook)
+
+## Release Agreement
+ <!--- Please read before continuing. Do not delete -->
+ **DO NOT DELETE THIS SECTION** 
+
+I understand the following implications of merging this Pull Request into the main branch
+- this Pull Request is approved by at least one CODEOWNER 
+## Merge Conditions
+<!--- Please read before continuing. Do not delete -->
+- Any new functionality must be provided with the tests that validate it
+
+</details>
+
