@@ -61,6 +61,46 @@
 # 'binary' attribute is used to tell Git to treat the file as binary data, preventing any automatic end-of-line conversion,
 # and ensuring that the file is not modified.
 
+
+
+# from extartests
+
+#
+# Git LFS (see https://git-lfs.github.com/)
+#
+*.3dm filter=lfs diff=lfs merge=lfs -text
+*.CATPart filter=lfs diff=lfs merge=lfs -text
+*.PRT filter=lfs diff=lfs merge=lfs -text
+*.SLDPRT filter=lfs diff=lfs merge=lfs -text
+*.X_T filter=lfs diff=lfs merge=lfs -text
+*.dwg filter=lfs diff=lfs merge=lfs -text
+*.dxf filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.f2d filter=lfs diff=lfs merge=lfs -text
+*.f3d filter=lfs diff=lfs merge=lfs -text
+*.f3z filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.idmap filter=lfs diff=lfs merge=lfs -text
+*.idx filter=lfs diff=lfs merge=lfs -text
+*.igs filter=lfs diff=lfs merge=lfs -text
+*.ipt filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.prt filter=lfs diff=lfs merge=lfs -text
+*.sat filter=lfs diff=lfs merge=lfs -text
+*.sldprt filter=lfs diff=lfs merge=lfs -text
+*.smb filter=lfs diff=lfs merge=lfs -text
+*.smt filter=lfs diff=lfs merge=lfs -text
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.stp filter=lfs diff=lfs merge=lfs -text
+*.svg filter=lfs diff=lfs merge=lfs -text
+*.tss filter=lfs diff=lfs merge=lfs -text
+*.wire filter=lfs diff=lfs merge=lfs -text
+*.x_b filter=lfs diff=lfs merge=lfs -text
+
 # from ad fus
 
 # from other
