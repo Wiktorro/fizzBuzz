@@ -1,0 +1,8 @@
+# Find a plugin to your favourite editor here: http://editorconfig.org/
+
+[*]
+charset = utf-8
+indent_style = space
+tab_width = 4s
+insert_final_newline = true
+trim_trailing_whitespace = true
