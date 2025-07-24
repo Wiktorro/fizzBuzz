@@ -1,5 +1,9 @@
 # Find a plugin to your favourite editor here: http://editorconfig.org/
 
+# spellcheck ignored words , see some examples, TODO add links 
+# scalaris 
+# lzcz
+
 [*]
 charset = utf-8
 indent_style = space
