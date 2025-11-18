@@ -23,7 +23,7 @@ fn main() {
             }
             else { println!("Buzz"); }  // brackets NECESSARY
         } else if remainder3_var == 0 {
-            println!("Fizz");
+            println!("Fizz"); // same as println! with newline \n
         }
         else {
             println!("{}", number);
