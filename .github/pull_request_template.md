@@ -56,7 +56,7 @@ List anything you built and how you built it, tests you added and tests you ran.
 
 ## Release Agreement
  <!--- Please read before continuing. Do not delete -->
- **DO NOT DELETE THIS SECTION** 
+ **DO NOT DELETE THIS SECTION**
 
 I understand the following implications of merging this Pull Request into the main branch
 - this Pull Request is approved by at least one CODEOWNER 
