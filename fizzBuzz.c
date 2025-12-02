@@ -32,9 +32,9 @@ void fizzBuzz(unsigned int n) {
     }
 }
 
-int main()
+int main(int argc, char** argv)
 {
-    const int n = parse_int(ltrim(rtrim(readline())));
+    const int n = ((argc > 1) ? atoi(argv[1]) : parse_int(ltrim(rtrim(readline()))));
 
     fizzBuzz(n);
 
