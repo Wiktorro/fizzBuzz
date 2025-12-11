@@ -1,8 +1,8 @@
-# see https://docs.github.com/articles/configuring-workflows/
+# see https://docs.github.com/articles/configuring-workflows/ https://github.com/brobeson/CppWorkflow
 
-name: Unit tests
-on: [push, pull_request]
+# name: Unit tests
+# on: [push, pull_request]
 
-jobs:
-  build:
-    name: Unit tests
+# jobs:
+#   build:
+#     name: Unit tests
