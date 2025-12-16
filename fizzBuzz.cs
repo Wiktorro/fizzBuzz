@@ -2,7 +2,7 @@ using System;
 
 using System.Linq; // for Enumerable itaration
 
-class HelloWorld {    
+class HelloWorld {
   static void FizzBuzzOneline(int x) {
     int rem3 = x % 3;
     int rem5 = x % 5;
