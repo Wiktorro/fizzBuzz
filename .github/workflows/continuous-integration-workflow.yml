@@ -1,8 +1,0 @@
-# see https://docs.github.com/articles/configuring-workflows/
-
-name: Unit tests
-on: [push, pull_request]
-
-jobs:
-  build:
-    name: Unit tests
