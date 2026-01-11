@@ -1,0 +1,19 @@
+# Compiler and flags
+CC = gcc
+CFLAGS = -Wall -Wextra -g
+
+# Target executable
+TARGET = fizzBuzz
+
+# Source files
+SRC = fizzBuzz.c
+
+# Build rules
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+
+# Clean rule
+clean:
+	del $(TARGET).exe
