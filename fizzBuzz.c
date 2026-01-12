@@ -23,11 +23,12 @@ int parse_int(char*);
 void fizzBuzz(unsigned int n) {
 // funkcja ktora musialem napisac, reszta byla gotowa
     for(unsigned int i=1 ; i <= n; ++i) {
-        if( 0 == i % 3) {
-            if( 0 == i % 5 ) printf("%s", "FizzBuzz\n");
-            else  printf("%s", "Fizz\n");
+        int rem3 = i % 3, rem5 = i % 5;
+        if( 0 == rem3) {
+            if( 0 == rem5) printf("%s", "FizzBuzz\n");
+            else printf("%s", "Fizz\n");
         }
-        else if( 0 == i % 5)  printf("%s", "Buzz\n");
+        else if(0 == rem5) printf("%s", "Buzz\n");
         else printf("%d\n", i);
     }
 }
