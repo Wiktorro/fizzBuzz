@@ -1,10 +1,5 @@
 '''
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
 '''
 
 def FizzBuzz(num : int) -> str:
@@ -27,7 +22,8 @@ def main():
     print(f"{FizzBuzz(30)=}")
     print(f"{FizzBuzz(1)=}")
     for i in range(7):
-        print(f"Looped FizzBuzz({i}) = {FizzBuzz(i)}")
+        if 0 < i < 5: # possible limiting bounds
+            print(f"Looped FizzBuzz({i}) = {FizzBuzz(i)}")
     
 if __name__ == "__main__":
     # a=int(input('Enter a number: '))
