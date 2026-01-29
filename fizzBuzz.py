@@ -13,7 +13,7 @@ def FizzBuzz(num : int) -> str:
     if rem3 == 0:
         if rem5 == 0:
             return('Fizzbuzz')
-        else: #elif num % 5 != 0:
+        else:
             return('Fizz')
     elif rem5 == 0:
         return('Buzz')
